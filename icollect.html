@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>iCollect</title>
+    <meta name="description" content />
+    <meta name="keywords" content />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta property="og:image" content="https://cats4u.ai/assets/images/img.png" />
+    <link rel="canonical" href="https://www.cats4u.ai" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.ico" />
+
+    <!-- Stylesheets
+	============================================= -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/swiper.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+  </head>
+  <style>
+    .lead {
+      font-size: 0.9rem;
+    }
+
+    .heading-block {
+      margin-bottom: 10px;
+    }
+
+    .heading-block::after {
+      margin-top: 10px;
+    }
+
+    .owl-nav {
+      display: none;
+    }
+
+    @media (max-width:576px){
+      .slider-caption{
+        text-align: center !important;
+      }
+    }
+
+    .graysection h3 {
+      text-align: center;
+      border-bottom: 1px solid #fff;
+      color: #fff;
+    }
+
+    .Benefits-wrap {
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+
+    .heading-block {
+      color: #000;
+      font-weight: 700;
+      margin: 0 0 20px;
+      -webkit-transition: 0.4s all;
+      transition: 0.4s all;
+      font-size: 31px;
+    }
+
+    .why_us .col-md-4:first-child .graysection {
+      background: #005aab;
+    }
+
+    .why_us .col-md-4:nth-child(2) .graysection {
+      background: #ffb81a;
+    }
+
+    .why_us .col-md-4:last-child .graysection {
+      background: #00ce89;
+    }
+
+    .graysection {
+      text-align: left;
+      padding: 1px 27px;
+      box-shadow: 1px 1px 4px 3px #d8d8d8;
+      margin-bottom: 20px;
+      min-height: 378px;
+    }
+
+    .why_cinntra ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    .infobox_wrapper ul {
+      line-height: 36px;
+    }
+
+    .heading-block > span:not(.before-heading) {
+      display: inline;
+    }
+
+    .heading-block::after {
+      border-top: 0px solid #444;
+    }
+
+    .infobox h3 {
+      text-align: center;
+      color: #fff;
+      margin: 0 0 0px 0;
+    }
+
+    .graysection h3 {
+      text-align: center;
+      border-bottom: 1px solid #fff;
+      color: #fff;
+    }
+    .bg-primary {
+      background: #673ab7 !important;
+    }
+    .bg-video-wrap {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 100vh;
+    }
+    video {
+      min-width: 100%;
+      min-height: 100vh;
+      z-index: 1;
+    }
+    .overlay {
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.7) 50%);
+      background-size: 3px 3px;
+      z-index: 2;
+    }
+    #video-background {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+    }
+    .cookies-box {
+      position: fixed;
+      max-width: 100%;
+      left: 0;
+      right: 0;
+      bottom: -225px;
+      width: 100%;
+      background-color: #0e0e0f;
+      padding: 15px;
+      margin: 0 auto;
+      color: #fff;
+      transition: all 0.3s ease;
+      z-index: 9999;
+    }
+    .cookies-box.show {
+      bottom: 0px;
+    }
+    .cookies__title {
+      margin: 0;
+      padding: 0;
+      line-height: 18px;
+      color: #fff;
+    }
+    .cookies__text {
+      font-size: 12px;
+    }
+    .cookies__title,
+    .cookies__text {
+      margin-bottom: 15px;
+    }
+    .cookies__link {
+      margin-left: 10px;
+      display: inline-block;
+      color: #8fc1e3;
+    }
+    .cookies__btn {
+      font-size: 12px;
+      padding: 3px 25px;
+      background-color: #47a1ce;
+      color: #fff;
+      border-radius: 3px;
+      border: none;
+      transition: background 0.3s;
+      cursor: pointer;
+    }
+    .cookies__btn--accept {
+      margin-right: 15px;
+    }
+    .cookies__btn:hover {
+      background-color: #47a1ce;
+    }
+    .cookies__link:hover {
+      color: #fff;
+    }
+    .card-body {
+      text-align: center;
+    }
+    .iconlist {
+      text-align: justify;
+    }
+    .li-bold {
+      color: #673ab7;
+      display: contents;
+      font-weight: 700;
+    }
+    .content-wrap {
+      padding: 40px 0px;
+    }
+    .cta-section-3 .cta-wrap-3 .cta-content .titles {
+      font-size: 40px;
+      line-height: 60px;
+      color: #ffffff;
+    }
+    .cta-section-3 .cta-wrap-3 .cta-content p {
+      font-size: 16px;
+      line-height: 24px;
+      font-family: "Lato", sans-serif;
+      font-weight: 600;
+      color: #ffffff;
+      margin-top: 35px;
+    }
+    .tab-contents {
+      display: none;
+      width: 100%;
+      max-height: 100%;
+      background: #fff;
+    }
+    .tab.active + .tab-contents {
+      display: block;
+    }
+
+    /* Styling tabs - this is enough for mobile - just like an accordion */
+
+    .tab,
+    .tab-contents {
+      padding: 10px;
+    }
+    .tab {
+      background: #f5f5ff;
+    }
+    /* .tab-content { background: #ddd; } */
+
+    /* Styling for desktop - vertical tabs */
+
+    @media (min-width: 992px) {
+      .tab {
+        width: 20%;
+        text-align: left;
+        padding-left: 3%;
+        border-bottom: 1px solid #dee2e6;
+        border-right: 1px solid #ccc;
+      }
+      .tab-contents {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 80%;
+        min-height: 100%;
+        overflow-y: hidden;
+        overflow-x: hidden;
+      }
+      /*   this is optional */
+      .tabs-container {
+        min-height: 400px;
+        /* background: #ccc; */
+      }
+    }
+    .tab.active {
+      background: #fff;
+    }
+    .tab a {
+      color: black !important;
+    }
+    ol li {
+      padding: 1px 0px !important;
+      font-size: 13px;
+    }
+    .cookie-consent {
+      position: fixed;
+      bottom: 1px;
+      left: 0px;
+      right: 20px;
+      width: 100%;
+      padding-top: 7px;
+      height: 45px;
+      color: #fff;
+      line-height: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 14px;
+      background: #292929;
+      z-index: 120;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+
+    .allow-button {
+      height: 20px;
+      width: 104px;
+      color: #fff;
+      font-size: 12px;
+      line-height: 10px;
+      border-radius: 3px;
+      border: 1px solid green;
+      background-color: green;
+    }
+    @media only screen and (max-width: 1399px) {
+      .page-banner-section {
+        min-height: 300px !important;
+      }
+    }
+    .tab-product {
+      overflow: hidden;
+      background-color: #f9f9f9;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .tab-product button {
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 15px 30px;
+      font-size: 16px;
+      width: 25%;
+    }
+    .tab-product button:hover {
+      background-color: #bbb;
+    }
+    .tab-product button.active {
+      background-color: #fff;
+      border-bottom: 2px solid #9b60c6;
+    }
+    .tabcontent {
+      display: none;
+      padding: 5px 15px 5px 15px;
+      border-top: none;
+    }
+    .features-section-6 {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .slider-caption.slider-caption-center {
+      /* text-align: center;
+      margin: 40px 150px; */
+    }
+    ul.list-unstyled li {
+      color: #555555;
+      font-size: 13px;
+      line-height: 1.7em;
+      margin-bottom: 5px;
+      font-weight: 400;
+    }
+    .card {
+      border-radius: 1rem;
+    }
+  </style>
+
+  <body class="stretched">
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+      <!-- Header
+		============================================= -->
+      <header id="header" class="full-header transparent-header" data-sticky-class="not-dark">
+        <div id="header-wrap">
+          <div class="container">
+            <div class="header-row">
+              <!-- Logo
+						============================================= -->
+              <div id="logo">
+                <a href="index.html" class="standard-logo" data-dark-logo="images/logo@2x.png"><img src="images/logo.png" alt="Cats4u Logo" /></a>
+                <a href="index.html" class="retina-logo" data-dark-logo="images/logo.png"><img src="images/logo.png" alt="Cats4u Logo" /></a>
+              </div>
+              <!-- #logo end -->
+
+              <div id="primary-menu-trigger">
+                <svg class="svg-trigger" viewBox="0 0 100 100">
+                  <path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path>
+                  <path d="m 30,50 h 40"></path>
+                  <path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path>
+                </svg>
+              </div>
+
+              <!-- Primary Navigation
+						============================================= -->
+              <nav class="primary-menu">
+                <ul class="menu-container">
+                  <li class="menu-item sub-menu">
+                    <a class="menu-link" href="#">
+                      <div>Products</div>
+                    </a>
+                    <ul class="sub-menu-container">
+                      <li class="menu-item">
+                        <a class="menu-link" href="prowatch.html">
+                          <div>ProWatch</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="dashboard.html">
+                          <div>iDashboard</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="chatboat.html">
+                          <div>Mapula</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="iServe.html">
+                          <div>iServe</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="iSense.html">
+                          <div>iSense</div>
+                        </a>
+                      </li>
+                      <!-- <li class="menu-item">
+                        <a class="menu-link" href="NMS.html">
+                          <div>IP-NMS</div>
+                        </a>
+                      </li> -->
+                      <li class="menu-item">
+                        <a class="menu-link" href="iProvision.html">
+                          <div>iProvision</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="icustomer.html">
+                          <div>iCustomer</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="iprocess.html">
+                          <div>iProcess</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="icollect.html">
+                          <div>iCollect</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item sub-menu">
+                    <a class="menu-link" href="#">
+                      <div>Solutions</div>
+                    </a>
+                    <ul class="sub-menu-container">
+                      <li class="menu-item">
+                        <a class="menu-link" href="iSense.html">
+                          <div>Event and Incident Management</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="iSense.html">
+                          <div>Remediations and Automation</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="iprocess.html">
+                          <div>Business Process Automation</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item sub-menu">
+                    <a class="menu-link" href="#">
+                      <div>Resources</div>
+                    </a>
+                    <ul class="sub-menu-container">
+                      <li class="menu-item">
+                        <a class="menu-link" href="#.html">
+                          <div>Use Cases</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="#.html">
+                          <div>Product Guide</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item sub-menu">
+                    <a class="menu-link" href="#">
+                      <div>Company</div>
+                    </a>
+                    <ul class="sub-menu-container">
+                      <li class="menu-item">
+                        <a class="menu-link" href="about.html">
+                          <div>About Us</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="menu-item">
+                    <a class="menu-links btns" href="contact.html">
+                      <div>Contact Us</div>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- #primary-menu end -->
+            </div>
+          </div>
+        </div>
+        <div class="header-wrap-clone"></div>
+      </header>
+      <!-- #header end -->
+
+      <section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header">
+        <div class="slider-inner">
+          <div class="swiper-container swiper-parent">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide dark">
+                <div class="container d-flex ">
+                  <div class="slider-caption slider-caption-center">
+                    <h2 data-animate="fadeInUp"><span style="color: #965dc2"></span>iCollect</h2>
+                    <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200" style="font-weight: 600">
+                      Billing made easy with iCollect - your one-stop billing solution!
+                    </p>
+                    <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="400">
+                      <a class="btn btn-outline-light mt-2 px-3" href="contact.html">Request Demo <i class="icon-long-arrow-alt-right"></i></a>
+                      &nbsp;
+                      <!-- <a class="btn btn-outline-light mt-2" href="use-cases.html">Learn How &nbsp; <i class="icon-long-arrow-alt-right"></i></a> -->
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide-bg" style="background-image: url('images/about/testi-bg.jpg')"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Content
+		============================================= -->
+
+      <!-- Content
+		============================================= -->
+      <section id="content">
+        <div class="content-wrap" style="padding: 30px 0px 0px 0px">
+          <div class="container">
+            <div class="row text-center">
+              <h3>What is iCollect?</h3>
+              <div class="blog-img mt-2 mb-4">
+                <a href="product.html"><img src="images/services/cats-dashboard.jpg" alt style="max-width: 60%" /></a>
+              </div>
+              <p class="mt-3">
+                It is a comprehensive billing engine that simplifies your billing processes and helps you manage your revenue more accurately. With iCollect, generating bills and
+                invoices, receiving payments, and managing billing cycles becomes effortless. This powerful autonomous BSS module works seamlessly with other modules in the CATS4u
+                suite like iCustomer, iProcess, and iProvision, providing you with a comprehensive view of your billing operations. With detailed reports available on iDashboard,
+                you can gain valuable insights into your billing processes and make informed decisions to optimize revenue collection.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="content" class style="background-image: url(images/counter-bg-3.jpg)">
+        <div class="content-wrap" style="padding: 0px">
+          <div class="section" style="margin: 0px; background: none; padding: 40px 0px 0px 0px">
+            <div class="container">
+              <h3 class="text-center mb-2">Simplify Your Billing Processes with iCollect</h3>
+              <p class="text-center mb-3 fs-6">Automate billing cycles, secure payments, and boost revenue with ease.</p>
+              <div class="about-wrap">
+                <div class="row">
+                  <div class="tab-product">
+                    <button class="tablinks active" id="One">Streamline billing</button>
+                    <button class="tablinks" id="Two">Secure payments</button>
+                    <button class="tablinks" id="Three">Boost revenue</button>
+                    <button class="tablinks" id="Four">Analyze performance</button>
+                  </div>
+
+                  <div id="One" class="tabcontent" style="display: block">
+                    <div class="blog-content-wrap mt-3">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                          <!-- Single Blog Start -->
+                          <div class="single-blog mt-0 d-flex justify-content-around align-items-center">
+                            <div class="blog-img shadow-depth-size3 mt-4">
+                              <a href="product.html"><img src="images/services/i-sales-hub.png" alt /></a>
+                            </div>
+                          </div>
+                          <!-- Single Blog End -->
+                        </div>
+                        <div class="col-md-6">
+                          <div class="blog-content mt-3 px-2">
+                            <h3 class="m-0">Streamline billing with iCollect</h3>
+                            <ul class="list-unstyled text-muted mb-0 mt-0">
+                              <li><i class="icon-line-circle-check"></i> Simplify billing cycle management</li>
+                              <li><i class="icon-line-circle-check"></i> Automate invoice generation and distribution</li>
+                              <li><i class="icon-line-circle-check"></i> Integration with payment gateways for easy payment processing</li>
+                              <li><i class="icon-line-circle-check"></i> Multi-currency support for global billing needs</li>
+                              <li><i class="icon-line-circle-check"></i> Discounts and promotions based on customer loyalty and usage volume</li>
+                              <li><i class="icon-line-circle-check"></i> Revenue assurance to prevent billing errors and fraud</li>
+                              <li><i class="icon-line-circle-check"></i> Reporting and analytics for informed decision-making</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="Two" class="tabcontent">
+                    <div class="blog-content-wrap mt-3">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                          <!-- Single Blog Start -->
+                          <div class="single-blog mt-0 d-flex justify-content-around align-items-center">
+                            <div class="blog-img shadow-depth-size3 mt-4">
+                              <a href="product.html"><img src="images/services/i-360.png" alt /></a>
+                            </div>
+                          </div>
+                          <!-- Single Blog End -->
+                        </div>
+                        <div class="col-md-6">
+                          <div class="blog-content mt-3 px-2">
+                            <h3 class="m-0">Ensure safe and secure payment processing for your customers</h3>
+                            <ul class="list-unstyled text-muted mb-0 mt-0">
+                              <li><i class="icon-line-circle-check"></i> Accept payments through various payment methods such as credit cards, debit cards, net banking, etc.</li>
+                              <li><i class="icon-line-circle-check"></i> Ensure compliance with industry-standard security protocols to protect customer information.</li>
+                              <li><i class="icon-line-circle-check"></i> Streamline payment processes with automated payment reminders and notifications.</li>
+                              <li><i class="icon-line-circle-check"></i> Provide real-time payment status updates to customers.</li>
+                              <li><i class="icon-line-circle-check"></i> Allow customers to securely save payment information for faster checkout.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="Three" class="tabcontent">
+                    <div class="blog-content-wrap mt-3">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                          <!-- Single Blog Start -->
+                          <div class="single-blog mt-0 d-flex justify-content-around align-items-center">
+                            <div class="blog-img shadow-depth-size3 mt-4">
+                              <a href="product.html"><img src="images/services/i-products.png" alt /></a>
+                            </div>
+                          </div>
+                          <!-- Single Blog End -->
+                        </div>
+                        <div class="col-md-6">
+                          <div class="blog-content mt-3 px-2">
+                            <h3 class="m-0">Automate billing cycles, secure payments, and boost revenue with ease</h3>
+                            <ul class="list-unstyled text-muted mb-0 mt-0">
+                              <li>
+                                <i class="icon-line-circle-check"></i> <span class="li-bold">Revenue assurance:</span> Identify and prevent revenue leakage by detecting billing
+                                errors, revenue discrepancies, and fraud.
+                              </li>
+                              <li>
+                                <i class="icon-line-circle-check"></i> <span class="li-bold">Customized promotions:</span> Apply discounts and promotions based on various criteria
+                                such as customer loyalty, usage volume, etc. to boost revenue.
+                              </li>
+                              <li>
+                                <i class="icon-line-circle-check"></i> <span class="li-bold">Invoice management:</span> Generate, customize, and distribute invoices to customers.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="Four" class="tabcontent">
+                    <div class="blog-content-wrap mt-3">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                          <!-- Single Blog Start -->
+                          <div class="single-blog mt-0 d-flex justify-content-around align-items-center">
+                            <div class="blog-img d-none shadow-depth-size3 mt-4">
+                              <a href="product.html"><img src="images/services/i-order-mang.png" alt /></a>
+                            </div>
+                          </div>
+                          <!-- Single Blog End -->
+                        </div>
+                        <div class="col-md-6">
+                          <div class="blog-content mt-3 px-2">
+                            <h3 class="m-0">Powerful Analytics for Informed Decision Making</h3>
+                            <p>Visualize data through interactive charts and graphs, and set up automated alerts to streamline billing processes</p>
+                            <ul class="list-unstyled text-muted mb-0 mt-0">
+                              <li>
+                                <i class="icon-line-circle-check"></i> <span class="li-bold">Customizable reports:</span> Generate reports based on specific business needs and
+                                requirements.
+                              </li>
+                              <li>
+                                <i class="icon-line-circle-check"></i> <span class="li-bold">Real-time data:</span> Access real-time billing data for immediate insights and
+                                decision-making.
+                              </li>
+                              <li>
+                                <i class="icon-line-circle-check"></i> <span class="li-bold">Data visualization:</span> Visualize billing data through interactive charts and
+                                graphs.
+                              </li>
+                              <li>
+                                <i class="icon-line-circle-check"></i> <span class="li-bold">Automated alerts:</span> Set up alerts to notify when key metrics are met or when
+                                exceptions occur.
+                              </li>
+                              <li>
+                                <i class="icon-line-circle-check"></i> <span class="li-bold">Data export:</span> Export billing data to other systems or formats for further
+                                analysis.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4" style="background-color: #ffffff">
+            <section class="wrap-data-1" style="padding: 40px 0px">
+              <div class="container mt-5 mb-5">
+                <h3 class="heading-block mt-3 text-center">There are many reasons to choose iProcess for your business process automation needs. Here are just a few</h3>
+                <div class="row display-flex">
+                  <div class="row col-mb-50">
+                    <div class="col-sm-6 col-lg-3">
+                      <div class="feature-box fbox-center fbox-outline fbox-lg fbox-effect">
+                        <div class="fbox-icon">
+                          <a href="#"><i class="icon-key i-alt"></i></a>
+                        </div>
+                        <div class="fbox-content">
+                          <h3>Customizable</h3>
+                          <p>iProcess is highly customizable, allowing you to tailor the tool to your specific needs and requirements.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                      <div class="feature-box fbox-center fbox-outline fbox-lg fbox-effect">
+                        <div class="fbox-icon">
+                          <a href="#"><i class="icon-hands i-alt"></i></a>
+                        </div>
+                        <div class="fbox-content">
+                          <h3>Scalable</h3>
+                          <p>iProcess can be scaled to meet the needs of businesses of all sizes, from small startups to large enterprises.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                      <div class="feature-box fbox-center fbox-outline fbox-lg fbox-effect">
+                        <div class="fbox-icon">
+                          <a href="#"><i class="icon-ok i-alt"></i></a>
+                        </div>
+                        <div class="fbox-content">
+                          <h3>Efficient</h3>
+                          <p>With iProcess, you can eliminate manual tasks and streamline your workflows, allowing you to save time and increase efficiency.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                      <div class="feature-box fbox-center fbox-outline fbox-lg fbox-effect">
+                        <div class="fbox-icon">
+                          <a href="#"><i class="icon-cogs i-alt"></i></a>
+                        </div>
+                        <div class="fbox-content">
+                          <h3>Cost-effective</h3>
+                          <p>iProcess is an affordable solution that can help you save money on labor costs and increase your bottom line.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="section testimonial-section section-padding" style="background-image: url(images/bg/a)">
+                <div class="container">
+                  <!-- Testimonial Wrap Start -->
+                  <div class="testimonial-wrap">
+                    <div class="row">
+                      <div class="col-xl-12">
+                        <div class="section-title">
+                          <h1 class="text-center">
+                            Discover iCustomer's true potential with a real-world<br />
+                            use cases scenario
+                          </h1>
+                        </div>
+                      </div>
+                      <div class="col-md-4 text-center">
+                        <h3 class="mb-0">Streamlining Service <br />Delivery Automation with iCustomer</h3>
+                        <p class="text-left" style="margin-left: -12px">
+                          <a href="product.html" class="btn" style="font-size: 13px; color: #673ab7">Read Complete Use Cases &nbsp; <i class="icon-long-arrow-right mt-1"></i></a>
+                        </p>
+                      </div>
+                      <div class="col-md-2 p-2">
+                        <div class="card">
+                          <div class="card-body p-0">
+                            <p class="card-text mb-1" style="padding: 10px 5px">Service Delivery Time reduction up to</p>
+                            <h2 class="mb-1">30%</h2>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 p-2">
+                        <div class="card">
+                          <div class="card-body p-0">
+                            <p class="card-text mb-1" style="padding: 10px 5px">Billing errors reduced by up to</p>
+                            <h2 class="mb-1">50%</h2>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 p-2">
+                        <div class="card">
+                          <div class="card-body p-0">
+                            <p class="card-text mb-0" style="padding: 10px 5px">Customer satisfaction increased by</p>
+                            <h2 class="mb-1">40%</h2>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 px-1">
+                        <div class="card">
+                          <div class="card-body p-0">
+                            <p class="card-text mb-0" style="padding: 10px 0px">Reduction in operational costs by up to</p>
+                            <h2 class="mb-1">25%</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Testimonial Wrap End -->
+                </div>
+              </div>
+
+              <div class="container mt-5">
+                <div class="row display-flex">
+                  <div class="section-title">
+                    <h1 class="text-center">How We Make Magic Happen!</h1>
+                    <p class="text-center">
+                      We follow a comprehensive engagement model to ensure that we understand your business needs and <br />provide you with tailored solutions. Our engagement
+                      model consists of four stages.
+                    </p>
+                  </div>
+                  <div class="col-md-12">
+                    <p class="text-center"><img src="images/services/i-customer-process.png" alt=/ style="max-width: 90%;"></p>
+                  </div>
+                  <!-- <div class="col-md-6 padding-30">
+									<h3 class="heading-block mt-3">Our <span style="color: #644099; border-bottom: 2px solid #644099; font-weight: bolder;">Engagement </span>Process</h3>
+									<p>We believe in making technology work for you. That's why our implementation process is designed to be fast, efficient, and hassle-free. Here's how it works:</p>
+									<ul class="list-unstyled text-muted mb-5 mt-0">
+										<li><i class="icon-line-circle-check"></i> <span class="li-bold">Discovery:</span> We start by learning about your business, your goals, and your unique requirements.</li>
+										<li><i class="icon-line-circle-check"></i> <span class="li-bold">Configuration:</span> Our team of experts will configure the product as per your specific needs, including hosting preferences, availability, integrations, forms and workflows.</li>
+										<li><i class="icon-line-circle-check"></i> <span class="li-bold">Training:</span> We'll provide comprehensive training to ensure your team is ready to hit the ground running.</li>
+										<li><i class="icon-line-circle-check"></i> <span class="li-bold">Go-Live:</span> Once everything is in place, we'll help you launch iCustomer and provide ongoing support to ensure your success.</li>
+									</ul>
+								</div> -->
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+      <div
+        class="section cta-section-3 section-padding-03"
+        style="background-image: url(images/counter-bg.jpg); margin-bottom: 0px; background-repeat: no-repeat, repeat; margin: 0px">
+        <div class="container">
+          <!-- Cta Wrap Start -->
+          <div class="cta-wrap-3">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="cta-content text-center">
+                  <h5 class="titles text-white fs-3">Ready to learn more about iCustomer and how it can help your business? Contact Us to schedule a demo.</h5>
+                  <p>
+                    <a href="about.html" class="btn btn-outline-light mt-2"
+                      >Contact Us &nbsp; <span style="margin-top: 3px"><i class="icon-long-arrow-right"></i></span
+                    ></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Cta Wrap End -->
+        </div>
+      </div>
+      <!-- Footer
+		============================================= -->
+      <footer id="footer" class="dark">
+        <div class="container">
+          <!-- Footer Widgets
+				============================================= -->
+
+          <div class="footer-widgets-wrap">
+            <div class="row col-mb-50">
+              <div class="col-lg-4">
+                <div class="widget clearfix">
+                  <img src="images/logo@2x.png" alt="Image" class="footer-logo" style="width: 100px" />
+                  <div class="py-2" style="background: url('images/world-map.png') no-repeat center center">
+                    <div class="row col-mb-30">
+                      <div class="col-12">
+                        <h4 class="footer-widget-title mb-1">Singapore</h4>
+                        <h5 class="footer-widget-title mb-1">Global Headquarter</h5>
+                        <address class="mb-0">Cignera Ventures Pte Ltd<br />7500A BEACH ROAD, #14-302,<br />The Plaza, Singapore - 199591</address>
+                        <br />
+                        <h4 class="footer-widget-title mb-1">UAE</h4>
+                        <address class="mb-0">
+                          Cignera Ventures Pte Ltd<br />IFZA business park, DDP, 28437-001,<br />
+                          Building A1 Dubai UAE
+                        </address>
+                        <br />
+                        <!-- <abbr title="Phone Number"><strong>Phone:</strong></abbr> (1) 8547 632521<br /> -->
+                        <!-- <abbr title="Fax"><strong>Fax:</strong></abbr> (1) 11 4752 1433<br /> -->
+                        <abbr title="Email Address"><strong>Email:</strong></abbr>
+                        <a href="mailto:Info@cats4u.ai">Info@cats4u.ai</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a href="#" class="social-icon si-small si-rounded topmargin-sm si-facebook">
+                    <i class="icon-facebook"></i>
+                    <i class="icon-facebook"></i>
+                  </a>
+
+                  <a href="#" class="social-icon si-small si-rounded topmargin-sm si-twitter">
+                    <i class="icon-twitter"></i>
+                    <i class="icon-twitter"></i>
+                  </a>
+
+                  <a href="#" class="social-icon si-small si-rounded topmargin-sm si-linkedin">
+                    <i class="icon-linkedin"></i>
+                    <i class="icon-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-sm-4">
+                <!-- Footer Widget Start -->
+                <div class="footer-widget">
+                  <h4 class="footer-widget-title">Product</h4>
+                  <hr class="hrunder-line" />
+                  <div class="widget-link" style="margin-top: -9px; margin-left: 5px">
+                    <ul class="link">
+                      <li><a href="prowatch.html">ProWatch</a></li>
+                      <li><a href="dashboard.html">iDashboard</a></li>
+                      <li><a href="iCustomer.html">iCustomer</a></li>
+                      <li><a href="iCollect.html">iCollect</a></li>
+                      <li><a href="iProcess.html">iProcess</a></li>
+                      <li><a href="iProvision.html">iProvision</a></li>
+                      <li><a href="iServe.html">iServe</a></li>
+                      <!-- <li><a href="nm.html">NMS</a></li> -->
+                      <li><a href="iSense.html">iSense</a></li>
+                      <li><a href="chatboat.html">Mapula</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- Footer Widget End -->
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <!-- Footer Widget Start -->
+                <div class="footer-widget">
+                  <h4 class="footer-widget-title">Solutions</h4>
+                  <hr class="hrunder-line" />
+                  <div class="widget-link" style="margin-left: 5px">
+                    <ul class="link" style="margin-bottom: 15px">
+                      <li><a href="iSense.html">Event and Incident Management</a></li>
+                      <li><a href="iSense.html">Remediations and Automation</a></li>
+                      <li><a href="iprocess.html">Business Process Automation</a></li>
+                    </ul>
+                    <!-- <ul class="link" style="margin-left: 5px;">
+                                        <li> <a href="oss-bss.html">OSS/BSS</a></li>
+                                        <li> <a href="aiops.html">AIOps</a></li>
+                                        <li> <a href="itom.html">ITOM</a></li>
+                                        <li> <a href="business-ops.html">Business Ops</a></li>
+                                        <li> <a href="network-ops.html">Network Ops</a></li>
+                                    </ul> -->
+                  </div>
+                </div>
+                <!-- Footer Widget End -->
+              </div>
+              <div class="col-lg-2 col-sm-4">
+                <!-- Footer Widget Start -->
+                <div class="footer-widget">
+                  <h4 class="footer-widget-title">Resources</h4>
+                  <hr class="hrunder-line" />
+                  <div class="widget-link" style="margin-top: -9px; margin-left: 5px">
+                    <ul class="link">
+                      <li><a href="#.html">Use Cases</a></li>
+                      <li><a href="#.html">Product Guide</a></li>
+                      <!-- <li> <a href="white-paper.html">White Papers</a></li> -->
+                    </ul>
+                  </div>
+                </div>
+                <!-- Footer Widget End -->
+              </div>
+              <div class="col-lg-1 col-sm-4">
+                <!-- Footer Widget Start -->
+                <div class="footer-widget">
+                  <h4 class="footer-widget-title">Company</h4>
+                  <hr class="hrunder-line" />
+                  <div class="widget-link" style="margin-top: -9px">
+                    <ul class="link">
+                      <li><a href="about.html">About Us</a></li>
+                      <!-- <li> <a href="careers.html">Careers</a></li> -->
+                    </ul>
+                  </div>
+                </div>
+                <!-- Footer Widget End -->
+              </div>
+            </div>
+          </div>
+          <!-- .footer-widgets-wrap end -->
+        </div>
+
+        <!-- Copyrights
+			============================================= -->
+        <div id="copyrights">
+          <div class="container">
+            <div class="copyright-text text-center">
+              <p style="font-size: 12px; margin-bottom: 0px !important">
+                <a href="disclaimer.html">Disclaimer</a> | <a href="terms-conditions.html">Terms &amp; Conditions</a> | <a href="privacy-policy.html">Privacy Policy</a> |
+                <a href="sitemap.xml">Site Map</a> | <a href="#.html">Cookie Settings</a> | © Copyrights 2023 All Rights Reserved by Cignera
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- #copyrights end -->
+      </footer>
+      <!-- #footer end -->
+    </div>
+    <!-- #wrapper end -->
+
+    <!-- Go To Top
+	============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+    <!-- <div class="cookies-box">
+		<h3 class="cookies__title">Cookies</h3>
+		<p class="cookies__text">
+			We use cookies to ensure that you have the best possible experience on our website. By closing this message you consent to using our cookies on your device, in accordance with our cookie policy, unless you have disabled cookies. You can disable cookies by accessing your browser's settings.
+		</p>
+		<div class="cookies__buttons">
+		  <button id="acceptBtn" class="cookies__btn cookies__btn--accept">
+			Accept
+		  </button>
+		  <button class="cookies__btn cookies__btn--decline">Decline</button>
+		</div>
+	  </div> -->
+
+    <!-- JavaScripts
+	============================================= -->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.min.js"></script>
+
+    <!-- Footer Scripts
+	============================================= -->
+    <script src="js/functions.js"></script>
+    <script>
+      // ---- ---- Const ---- ---- //
+      const cookiesBox = document.querySelector(".cookies-box");
+      const buttons = document.querySelectorAll(".cookies__btn");
+
+      // ---- ---- Show ---- ---- //
+      const executeCodes = () => {
+        if (document.cookie.includes("AlexGolovanov")) return;
+        cookiesBox.classList.add("show");
+
+        // ---- ---- Button ---- ---- //
+        buttons.forEach((button) => {
+          button.addEventListener("click", () => {
+            cookiesBox.classList.remove("show");
+
+            // ---- ---- Time ---- ---- //
+            if (button.id == "acceptBtn") {
+              document.cookie = "cookieBy= AlexGolovanov; max-age=" + 60 * 60 * 24 * 30;
+            }
+          });
+        });
+      };
+
+      window.addEventListener("load", executeCodes);
+    </script>
+    <script>
+      const buttonElement = document.querySelectorAll(".tablinks");
+      const tabContent = document.querySelectorAll(".tabcontent");
+
+      tabContent[0].style.display = "block";
+
+      buttonElement.forEach(function (i) {
+        i.addEventListener("click", function (event) {
+          for (let x = 0; x < buttonElement.length; x++) {
+            if (event.target.id == buttonElement[x].id) {
+              buttonElement[x].className = buttonElement[x].className.replace(" active", "");
+              tabContent[x].style.display = "block";
+              event.currentTarget.className += " active";
+            } else {
+              tabContent[x].style.display = "none";
+              buttonElement[x].className = buttonElement[x].className.replace(" active", "");
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
